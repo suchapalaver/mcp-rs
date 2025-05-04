@@ -17,5 +17,5 @@ rmcp = { git = "https://github.com/modelcontextprotocol/rust-sdk", features = [
     "client",
     "transport-child-process",
     "transport-sse",
-], no-default-features = true }
+], default-features = false }
 clap = { version = "4.0", features = ["derive"] }
